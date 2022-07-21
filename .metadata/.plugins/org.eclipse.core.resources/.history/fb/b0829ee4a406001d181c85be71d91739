@@ -1,0 +1,41 @@
+package map_org;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+import arraylist_org.Item;
+
+public class TestMap {
+
+	public static void main(String[] args) {
+		Map<Integer, String> autoMap = new HashMap<Integer, String>();
+		autoMap.put(01, "Sedan Car");
+		autoMap.put(02, "Bus");
+		autoMap.put(03, "Truck");
+		autoMap.put(04, "Bike");
+		
+		for(Entry i: autoMap.entrySet()) {
+			System.out.println(i.getKey() + ": " + i.getValue());
+			//System.out.println(i);
+		}
+		
+		Set<Integer> autoKey = new HashSet<Integer>();
+		
+		for(int i: autoMap.keySet()) {
+			autoKey.add(i);
+		}
+		System.out.println(autoKey);
+		
+//		Map itemMap = new HashMap();
+//		
+//		Item one = new Item("TV", 2000, "Samsung", 1);
+//		Item two = new Item("Smartphone", 1200, "Samsung", 1);
+//		Item three = new Item("Bluetooth mic", 100, "Logi", 1);
+//		Item four = new Item("Tripod", 50, "Logi", 1);
+
+	}
+
+}

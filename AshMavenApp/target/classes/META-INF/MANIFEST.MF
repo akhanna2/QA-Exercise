@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: ashuit
+Build-Jdk: 17.0.3
+Main-Class: org.qa.Hello
+Created-By: Maven Integration for Eclipse
+

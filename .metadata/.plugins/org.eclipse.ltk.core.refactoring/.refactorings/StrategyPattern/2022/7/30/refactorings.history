@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.main&apos; to &apos;Test&apos;&#x0D;&#x0A;- Original project: &apos;StrategyPattern&apos;&#x0D;&#x0A;- Original element: &apos;org.main&apos;&#x0D;&#x0A;- Renamed element: &apos;org.Test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org{main.java[main" matchStrategy="1" name="Test" qualified="false" references="true" similarDeclarations="true" stamp="1658396524626" textual="false" version="1.0"/>
+</session>

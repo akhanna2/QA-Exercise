@@ -1,0 +1,29 @@
+package org.qa;
+
+public class LeapYear {
+	public String CheckLeapYear(int year) {
+		if (year%4 == 0) 
+		{
+			if (year%100 == 0)
+			{
+				if (year%400 == 0)
+				{
+					return "Leap year";
+				}
+				else
+				{
+					return "Common year";
+				}
+			}
+			else
+			{
+				return "Leap year";
+			}
+		}
+		else
+		{
+			return "Common year";
+		}
+	}
+
+}
