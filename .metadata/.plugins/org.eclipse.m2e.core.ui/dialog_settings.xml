@@ -47,12 +47,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="MyFirstWebApp"/>
 			<item value="org.qa"/>
 			<item value="com.qa"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="MyFirstWebApp"/>
+			<item value="SampleHelloWorldProject"/>
+			<item value="StrategyPattern"/>
 			<item value="GenericsExample"/>
 			<item value="LoggingExample"/>
 			<item value="CollectionsExample"/>
@@ -65,7 +69,6 @@
 			<item value="JDBCApp"/>
 			<item value="WorkShop11July"/>
 			<item value="LeapYearProject"/>
-			<item value="AshMavenApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -82,5 +85,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="MyFirstWebApp"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MyFirstWebApp"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

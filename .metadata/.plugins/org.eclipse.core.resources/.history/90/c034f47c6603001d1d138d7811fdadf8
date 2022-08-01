@@ -1,6 +1,0 @@
-package com;
-
-public class Eligibilty {
-	public void checkEligibility(int age)
-
-}

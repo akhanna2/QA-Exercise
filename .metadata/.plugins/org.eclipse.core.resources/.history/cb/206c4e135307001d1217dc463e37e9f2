@@ -1,7 +1,0 @@
-package org;
-
-public class bed extends Furniture{
-	public void Make() {
-		System.out.println("Making Bed");
-	}
-}
